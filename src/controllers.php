@@ -8,9 +8,8 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 $app->get('/', function () use ($app) {
 
+    $location = new Weather\Services\Location();
     $history = new Weather\Services\History();
-
-    var_dump($history);exit;
 
     return $app['twig']->render('index.twig', array(
     	'date' => date('d M Y'),
