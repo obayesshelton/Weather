@@ -7,6 +7,11 @@ use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 $app->get('/', function () use ($app) {
+
+    $history = new Weather\Services\History();
+
+    var_dump($history);exit;
+
     return $app['twig']->render('index.twig', array(
     	'date' => date('d M Y'),
     ));
