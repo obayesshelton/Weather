@@ -1,0 +1,38 @@
+<?php
+
+return new \Phalcon\Config(array(
+	'database' => array(
+		'adapter'     => 'mysql',
+		'host'        => '%%hostname%%',
+		'username'    => '%%username%%',
+		'password'    => '%%password%%',
+		'dbname'      => '%%database%%',
+	),
+	'application' => array(
+		'controllersDir' => __DIR__ . '/../../app/controllers/',
+		'modelsDir'      => __DIR__ . '/../../app/mappers/',
+		'modelDir'       => __DIR__ . '/../../app/models/',
+		'servicesDir'    => __DIR__ . '/../../app/services/',
+		'viewsDir'       => __DIR__ . '/../../app/views/',
+		'pluginsDir'     => __DIR__ . '/../../app/plugins/',
+		'libraryDir'     => __DIR__ . '/../../app/library/',
+		'cacheDir'       => __DIR__ . '/../../app/cache/',
+		'formsDir'       => __DIR__ . '/../../app/forms/',
+		'vendorDir'      => __DIR__ . '/../../vendor/',
+		'helpersDir'     => __DIR__ . '/../../app/view/helpers/',
+		'baseUri'        => '/',
+	),
+	'mail' => array(
+			'fromName' => 'RandomStorm Limited',
+			'fromEmail' => 'webmaster@randomstorm.com',
+			'smtp' => array(
+					'server' => 'mail.randomstorm.com',
+					'auth' => 'login',
+					'port' => 25,
+					'security' => 'tls',
+					'username' => '',
+					'password' => '',
+			)
+	),
+    'stormPortal' => '%%complysecApi%%',
+));
