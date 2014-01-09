@@ -16,6 +16,8 @@ return new \Phalcon\Config(array(
                 'libraryDir'     => __DIR__ . '/../../app/library/',
                 'pluginsDir'     => __DIR__ . '/../../app/plugins/',
                 'viewsDir'       => __DIR__ . '/../../app/views/',
+                'tasksDir'       => __DIR__ . '/../../app/tasks/',
+                'modelsDir'      => __DIR__ . '/../../app/mappers/',
 				'baseUri'        => '/'
          ),
         'mail' => array(
