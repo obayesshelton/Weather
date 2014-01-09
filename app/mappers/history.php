@@ -84,15 +84,15 @@ class History extends \Phalcon\Mvc\Model
     public function columnMap() {
         return array(
             'id'          => 'id',
-            'location_id' => 'id',
-            'date'        => 'id',
-            'wind'        => 'id',
-            'temp'        => 'id',
-            'temp_type'   => 'id',
-            'icon'        => 'id',
-            'summary'     => 'id',
-            'humidity'    => 'id',
-            'status'      => 'id',
+            'location_id' => 'locationID',
+            'date'        => 'date',
+            'wind'        => 'wind',
+            'temp'        => 'temp',
+            'temp_type'   => 'tempType',
+            'icon'        => 'icon',
+            'summary'     => 'summary',
+            'humidity'    => 'humidity',
+            'status'      => 'status',
         );
     }
 
