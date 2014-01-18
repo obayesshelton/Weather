@@ -65,12 +65,12 @@ class History extends \Phalcon\Mvc\Model
      *
      * @var int
      */
-    public $since1julsnow_fall_m;
+    public $since_1jul_snow_fall_m;
     /**
      *
      * @var int
      */
-    public $since1julsnow_fall_i;
+    public $since_1jul_snow_fall_i;
     /**
      *
      * @var int
@@ -275,107 +275,107 @@ class History extends \Phalcon\Mvc\Model
      *
      * @var int
      */
-    public $gdegreedays;
+    public $g_degree_days;
     /**
      *
      * @var int
      */
-    public $heatingdegreedays;
+    public $heating_degree_days;
     /**
      *
      * @var int
      */
-    public $coolingdegreedays;
+    public $cooling_degree_days;
     /**
      *
      * @var int
      */
-    public $precipm;
+    public $precip_m;
     /**
      *
      * @var int
      */
-    public $precipi;
+    public $precip_i;
     /**
      *
      * @var int
      */
-    public $precipsource;
+    public $precip_source;
     /**
      *
      * @var int
      */
-    public $heatingdegreedaysnormal;
+    public $heating_degree_daysnormal;
     /**
      *
      * @var int
      */
-    public $monthtodateheatingdegreedays;
+    public $month_to_date_heating_degree_days;
     /**
      *
      * @var int
      */
-    public $monthtodateheatingdegreedaysnormal;
+    public $month_to_date_heating_degree_days_normal;
     /**
      *
      * @var int
      */
-    public $since1sepheatingdegreedays;
+    public $since_1_sep_heating_degree_days;
     /**
      *
      * @var int
      */
-    public $since1sepheatingdegreedaysnormal;
+    public $since_1_sep_heating_degree_days_normal;
     /**
      *
      * @var int
      */
-    public $since1julheatingdegreedays;
+    public $since_1_jul_heating_degree_days;
     /**
      *
      * @var int
      */
-    public $since1julheatingdegreedaysnormal;
+    public $since_1_jul_heating_degree_days_normal;
     /**
      *
      * @var int
      */
-    public $coolingdegreedaysnormal;
+    public $cooling_degree_daysnormal;
     /**
      *
      * @var int
      */
-    public $monthtodatecoolingdegreedays;
+    public $since_1_month_to_date_cooling_degree_days;
     
     /**
      *
      * @var int
      */
-    public $monthtodatecoolingdegreedaysnormal;
+    public $since_1_month_to_date_cooling_degree_days_normal;
     
     /**
      *
      * @var int
      */
-    public $since1sepcoolingdegreedays;
+    public $since1sepcooling_degree_days;
     
     /**
      *
      * @var int
      */
-    public $since1sepcoolingdegreedaysnormal;
+    public $since1sepcooling_degree_daysnormal;
     
     /**
      *
      * @var int
      */
-    public $since1jancoolingdegreedays;
+    public $since1jancooling_degree_days;
     
     /**
      *
      * @var int
      */
-     public $since1jancoolingdegreedaysnormal;
+     public $since1jancooling_degree_daysnormal;
 
     /**
      *
@@ -410,10 +410,10 @@ class History extends \Phalcon\Mvc\Model
             'snow' => 'snow',
             'snow_fall_m' => 'snow_fall_m',
             'snow_fall_i' => 'snow_fall_i',
-            'monthtodatesnow_fall_m' => 'monthtodatesnow_fall_m',
-            'monthtodatesnow_fall_i' => 'monthtodatesnow_fall_i',
-            'since1julsnow_fall_m' => 'since1julsnow_fall_m',
-            'since1julsnow_fall_i' => 'since1julsnow_fall_i',
+            'since_1_month_to_date_snow_fall_m' => 'since_1_month_to_date_snow_fall_m',
+            'month_to_date_snow_fall_i' => 'month_to_date_snow_fall_i',
+            'since_1jul_snow_fall_m' => 'since_1jul_snow_fall_m',
+            'since_1jul_snow_fall_i' => 'since_1jul_snow_fall_i',
             'snow_depth_m' => 'snow_depth_m',
             'snow_depth_i' => 'snow_depth_i',
             'hail' => 'hail',
@@ -454,22 +454,22 @@ class History extends \Phalcon\Mvc\Model
             'max_visi' => 'max_visi',
             'min_vism' => 'min_vism',
             'min_visi' => 'min_visi',
-            'gdegreedays' => 'gdegreedays',
-            'heatingdegreedays' => 'heatingdegreedays',
-            'coolingdegreedays' => 'coolingdegreedays',
-            'precipm' => 'precipm',
-            'precipi' => 'precipi',
-            'precipsource' => 'precipsource',
-            'heatingdegreedaysnormal' => 'heatingdegreedaysnormal',
-            'monthtodateheatingdegreedays' => 'monthtodateheatingdegreedays',
-            'monthtodateheatingdegreedaysnormal' => 'monthtodateheatingdegreedaysnormal',
-            'since1sepheatingdegreedays' => 'since1sepheatingdegreedays',
-            'since1sepheatingdegreedaysnormal' => 'since1sepheatingdegreedaysnormal',
-            'since1julheatingdegreedays' => 'since1julheatingdegreedays',
-            'since1julheatingdegreedaysnormal' => 'since1julheatingdegreedaysnormal',
-            'coolingdegreedaysnormal' => 'coolingdegreedaysnormal',
-            'monthtodatecoolingdegreedays' => 'monthtodatecoolingdegreedays',
-            'monthtodatecoolingdegreedaysnormal' => 'monthtodatecoolingdegreedaysnormal',
+            'g_degree_days' => 'g_degree_days',
+            'heating_degree_days' => 'heating_degree_days',
+            'cooling_degree_days' => 'cooling_degree_days',
+            'precip_m' => 'precip_m',
+            'precip_i' => 'precip_i',
+            'precip_source' => 'precip_source',
+            'heating_degree_daysnormal' => 'heating_degree_daysnormal',
+            'month_to_date_heating_degree_days' => 'month_to_date_heating_degree_days',
+            'month_to_date_heating_degree_days_normal' => 'month_to_date_heating_degree_days_normal',
+            'since_1_sep_heating_degree_days' => 'since_1_sep_heating_degree_days',
+            'since_1_sep_heating_degree_days_normal' => 'since_1_sep_heating_degree_days_normal',
+            'since_1_jul_heating_degree_days' => 'since_1_jul_heating_degree_days',
+            'since_1_jul_heating_degree_days_normal' => 'since_1_jul_heating_degree_days_normal',
+            'cooling_degree_daysnormal' => 'cooling_degree_daysnormal',
+            'since_1_month_to_date_cooling_degree_days' => 'since_1_month_to_date_cooling_degree_days',
+            'since_1_month_to_date_cooling_degree_days_normal' => 'since_1_month_to_date_cooling_degree_days_normal',
             'status'=> 'status',
         );
     }
