@@ -19,6 +19,7 @@ $loader->registerDirs(
 		$config->application->pluginsDir,
         $config->application->routesDir,
         $config->application->libraryDir,
+        $config->application->modelsDir,
         $config->application->viewsDir,
         $config->cache->cacheDir,
 	)

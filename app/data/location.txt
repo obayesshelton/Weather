@@ -1,0 +1,155 @@
+  public $current_observation =>
+  class stdClass#3 (55) {
+    public $display_location =>
+    class stdClass#33 (12) {
+      public $full =>
+      string(22) "London, United Kingdom"
+      public $city =>
+      string(6) "London"
+      public $state =>
+      string(0) ""
+      public $state_name =>
+      string(14) "United Kingdom"
+      public $country =>
+      string(2) "UK"
+      public $country_iso3166 =>
+      string(2) "GB"
+      public $zip =>
+      string(5) "00000"
+      public $magic =>
+      string(1) "1"
+      public $wmo =>
+      string(5) "03772"
+      public $latitude =>
+      string(11) "51.47999954"
+      public $longitude =>
+      string(11) "-0.44999999"
+      public $elevation =>
+      string(11) "24.00000000"
+    }
+    public $observation_location =>
+    class stdClass#34 (8) {
+      public $full =>
+      string(8) "London, "
+      public $city =>
+      string(6) "London"
+      public $state =>
+      string(0) ""
+      public $country =>
+      string(2) "UK"
+      public $country_iso3166 =>
+      string(2) "GB"
+      public $latitude =>
+      string(11) "51.47750092"
+      public $longitude =>
+      string(11) "-0.46138901"
+      public $elevation =>
+      string(5) "79 ft"
+    }
+    public $estimated =>
+    class stdClass#35 (0) {
+    }
+    public $station_id =>
+    string(4) "EGLL"
+    public $observation_time =>
+    string(39) "Last Updated on January 14, 7:20 PM GMT"
+    public $observation_time_rfc822 =>
+    string(31) "Tue, 14 Jan 2014 19:20:00 +0000"
+    public $observation_epoch =>
+    string(10) "1389727200"
+    public $local_time_rfc822 =>
+    string(31) "Tue, 14 Jan 2014 19:42:50 +0000"
+    public $local_epoch =>
+    string(10) "1389728570"
+    public $local_tz_short =>
+    string(3) "GMT"
+    public $local_tz_long =>
+    string(13) "Europe/London"
+    public $local_tz_offset =>
+    string(5) "+0000"
+    public $weather =>
+    string(5) "Clear"
+    public $temperature_string =>
+    string(10) "41 F (5 C)"
+    public $temp_f =>
+    int(41)
+    public $temp_c =>
+    int(5)
+    public $relative_humidity =>
+    string(3) "81%"
+    public $wind_string =>
+    string(23) "From the South at 9 MPH"
+    public $wind_dir =>
+    string(5) "South"
+    public $wind_degrees =>
+    int(190)
+    public $wind_mph =>
+    int(9)
+    public $wind_gust_mph =>
+    int(0)
+    public $wind_kph =>
+    int(15)
+    public $wind_gust_kph =>
+    int(0)
+    public $pressure_mb =>
+    string(4) "1007"
+    public $pressure_in =>
+    string(5) "29.74"
+    public $pressure_trend =>
+    string(1) "0"
+    public $dewpoint_string =>
+    string(10) "36 F (2 C)"
+    public $dewpoint_f =>
+    int(36)
+    public $dewpoint_c =>
+    int(2)
+    public $heat_index_string =>
+    string(2) "NA"
+    public $heat_index_f =>
+    string(2) "NA"
+    public $heat_index_c =>
+    string(2) "NA"
+    public $windchill_string =>
+    string(10) "35 F (2 C)"
+    public $windchill_f =>
+    string(2) "35"
+    public $windchill_c =>
+    string(1) "2"
+    public $feelslike_string =>
+    string(10) "35 F (2 C)"
+    public $feelslike_f =>
+    string(2) "35"
+    public $feelslike_c =>
+    string(1) "2"
+    public $visibility_mi =>
+    string(3) "N/A"
+    public $visibility_km =>
+    string(3) "N/A"
+    public $solarradiation =>
+    string(2) "--"
+    public $UV =>
+    string(2) "-1"
+    public $precip_1hr_string =>
+    string(25) "-9999.00 in (-9999.00 mm)"
+    public $precip_1hr_in =>
+    string(8) "-9999.00"
+    public $precip_1hr_metric =>
+    string(2) "--"
+    public $precip_today_string =>
+    string(16) "0.00 in (0.0 mm)"
+    public $precip_today_in =>
+    string(4) "0.00"
+    public $precip_today_metric =>
+    string(3) "0.0"
+    public $icon =>
+    string(5) "clear"
+    public $icon_url =>
+    string(43) "http://icons-ak.wxug.com/i/c/k/nt_clear.gif"
+    public $forecast_url =>
+    string(54) "http://www.wunderground.com/global/stations/03772.html"
+    public $history_url =>
+    string(76) "http://www.wunderground.com/history/airport/EGLL/2014/1/14/DailyHistory.html"
+    public $ob_url =>
+    string(89) "http://www.wunderground.com/cgi-bin/findweather/getForecast?query=51.47750092,-0.46138901"
+  }
+}

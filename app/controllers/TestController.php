@@ -38,9 +38,17 @@ class IndexController extends BaseController
         $this->view->historic = $history->gethistoricWeather(992);
         $this->view->today = $wunderground->getAllWeather();
 
-        $this->view->history  = $history->getHistoricWeatherForChart(992);
-
         $this->view->date = date('d - m - Y');
+    }
+
+    public function testAction()
+    {
+
+    }
+
+    public function fooAction()
+    {
+
     }
     
     public function fourofourAction()

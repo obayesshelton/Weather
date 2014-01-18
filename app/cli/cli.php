@@ -4,6 +4,8 @@ use Phalcon\DI\FactoryDefault\CLI as CliDI,
     Phalcon\CLI\Console as ConsoleApp,
     Phalcon\Db\Adapter\Pdo\Mysql as DbAdapter;
 
+ini_set("allow_url_fopen", 1);
+
 define('VERSION', '1.0.0');
 
 //Using the CLI factory default services container
@@ -24,6 +26,13 @@ $loader->registerDirs(
         $config->application->modelsDir,
     )
 );
+
+$loader->registerNamespaces(
+    array(
+        "Services" => $config->application->servicesDir,
+    )
+);
+
 $loader->register();
 
 $config = include __DIR__ . "/../config/config.php";

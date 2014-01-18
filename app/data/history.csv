@@ -1,0 +1,160 @@
+array(1) {
+  [0] =>
+  class stdClass#183 (70) {
+    public $date =>
+    class stdClass#184 (7) {
+      public $pretty =>
+      string(32) "12:20 AM GMT on January 01, 2014"
+      public $year =>
+      string(4) "2014"
+      public $mon =>
+      string(2) "01"
+      public $mday =>
+      string(2) "01"
+      public $hour =>
+      string(2) "00"
+      public $min =>
+      string(2) "20"
+      public $tzname =>
+      string(13) "Europe/London"
+    }
+    public $fog =>
+    string(1) "0"
+    public $rain =>
+    string(1) "1"
+    public $snow =>
+    string(1) "0"
+    public $snowfallm =>
+    string(0) ""
+    public $snowfalli =>
+    string(0) ""
+    public $monthtodatesnowfallm =>
+    string(0) ""
+    public $monthtodatesnowfalli =>
+    string(0) ""
+    public $since1julsnowfallm =>
+    string(0) ""
+    public $since1julsnowfalli =>
+    string(0) ""
+    public $snowdepthm =>
+    string(0) ""
+    public $snowdepthi =>
+    string(0) ""
+    public $hail =>
+    string(1) "0"
+    public $thunder =>
+    string(1) "0"
+    public $tornado =>
+    string(1) "0"
+    public $meantempm =>
+    string(1) "8"
+    public $meantempi =>
+    string(2) "45"
+    public $meandewptm =>
+    string(1) "6"
+    public $meandewpti =>
+    string(2) "42"
+    public $meanpressurem =>
+    string(6) "988.23"
+    public $meanpressurei =>
+    string(5) "29.18"
+    public $meanwindspdm =>
+    string(2) "20"
+    public $meanwindspdi =>
+    string(2) "12"
+    public $meanwdire =>
+    string(3) "SSE"
+    public $meanwdird =>
+    string(3) "164"
+    public $meanvism =>
+    string(3) "9.5"
+    public $meanvisi =>
+    string(3) "5.9"
+    public $humidity =>
+    string(2) "89"
+    public $maxtempm =>
+    string(2) "11"
+    public $maxtempi =>
+    string(2) "51"
+    public $mintempm =>
+    string(1) "4"
+    public $mintempi =>
+    string(2) "39"
+    public $maxhumidity =>
+    string(2) "94"
+    public $minhumidity =>
+    string(2) "81"
+    public $maxdewptm =>
+    string(1) "9"
+    public $maxdewpti =>
+    string(2) "48"
+    public $mindewptm =>
+    string(1) "3"
+    public $mindewpti =>
+    string(2) "37"
+    public $maxpressurem =>
+    string(3) "998"
+    public $maxpressurei =>
+    string(5) "29.47"
+    public $minpressurem =>
+    string(3) "979"
+    public $minpressurei =>
+    string(5) "28.91"
+    public $maxwspdm =>
+    string(2) "39"
+    public $maxwspdi =>
+    string(2) "24"
+    public $minwspdm =>
+    string(2) "11"
+    public $minwspdi =>
+    string(1) "7"
+    public $maxvism =>
+    string(4) "10.0"
+    public $maxvisi =>
+    string(3) "6.2"
+    public $minvism =>
+    string(3) "4.0"
+    public $minvisi =>
+    string(3) "2.5"
+    public $gdegreedays =>
+    string(1) "0"
+    public $heatingdegreedays =>
+    string(2) "20"
+    public $coolingdegreedays =>
+    string(1) "0"
+    public $precipm =>
+    string(3) "0.0"
+    public $precipi =>
+    string(4) "0.00"
+    public $precipsource =>
+    string(11) "3Or6HourObs"
+    public $heatingdegreedaysnormal =>
+    string(0) ""
+    public $monthtodateheatingdegreedays =>
+    string(0) ""
+    public $monthtodateheatingdegreedaysnormal =>
+    string(0) ""
+    public $since1sepheatingdegreedays =>
+    string(0) ""
+    public $since1sepheatingdegreedaysnormal =>
+    string(0) ""
+    public $since1julheatingdegreedays =>
+    string(0) ""
+    public $since1julheatingdegreedaysnormal =>
+    string(0) ""
+    public $coolingdegreedaysnormal =>
+    string(0) ""
+    public $monthtodatecoolingdegreedays =>
+    string(0) ""
+    public $monthtodatecoolingdegreedaysnormal =>
+    string(0) ""
+    public $since1sepcoolingdegreedays =>
+    string(0) ""
+    public $since1sepcoolingdegreedaysnormal =>
+    string(0) ""
+    public $since1jancoolingdegreedays =>
+    string(0) ""
+    public $since1jancoolingdegreedaysnormal =>
+    string(0) ""
+  }
+}
