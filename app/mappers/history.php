@@ -26,49 +26,356 @@ class History extends \Phalcon\Mvc\Model
      *
      * @var int
      */
-    public $wind;
+    public $fog;
 
     /**
      *
-     * @var string
+     * @var int
      */
-    public $windDir;
+    public $rain;
 
     /**
      *
-     * @var float
+     * @var int
      */
-    public $pressure;
+     public $snow;
 
     /**
      *
-     * @var float
+     * @var int
+     */
+     public $snow_fall_m;
+    
+    /**
+     *
+     * @var int
+     */
+    public $snow_fall_i;
+    /**
+     *
+     * @var int
+     */
+    public $month_to_date_snow_fall_m;
+    /**
+     *
+     * @var int
+     */
+    public $month_to_date_snow_fall_i;
+    /**
+     *
+     * @var int
+     */
+    public $since1julsnow_fall_m;
+    /**
+     *
+     * @var int
+     */
+    public $since1julsnow_fall_i;
+    /**
+     *
+     * @var int
+     */
+    public $snow_depth_m;
+    /**
+     *
+     * @var int
+     */
+    public $snow_depth_i;
+    /**
+     *
+     * @var int
+     */
+    public $hail;
+    /**
+     *
+     * @var int
+     */
+    public $thunder;
+    /**
+     *
+     * @var int
+     */
+    public $tornado;
+    /**
+     *
+     * @var int
+     */
+    public $mean_temp_m;
+    /**
+     *
+     * @var int
+     */
+    public $mean_temp_i;
+    /**
+     *
+     * @var int
+     */
+    public $mean_dew_pt_m;
+    /**
+     *
+     * @var int
+     */
+    public $mean_dew_pt_i;
+    /**
+     *
+     * @var int
+     */
+    public $mean_pressure_m;
+    /**
+     *
+     * @var int
+     */
+    public $mean_pressure_i;
+    /**
+     *
+     * @var int
+     */
+    public $mean_wind_spd_m;
+    /**
+     *
+     * @var int
+     */
+    public $mean_wind_spd_i;
+    /**
+     *
+     * @var int
+     */
+    public $mean_w_dir_e;
+    /**
+     *
+     * @var int
+     */
+    public $mean_w_dir_d;
+    /**
+     *
+     * @var int
+     */
+    public $mean_vis_m;
+    /**
+     *
+     * @var int
+     */
+    public $mean_vis_i;
+    /**
+     *
+     * @var int
      */
     public $humidity;
-
     /**
      *
      * @var int
      */
-    public $temp;
-
+    public $max_temp_m;
     /**
      *
      * @var int
      */
-    public $tempType;
-
+    public $max_temp_i;
     /**
      *
      * @var int
      */
-    public $icon;
-
+    public $min_temp_m;
     /**
      *
-     * @var varchar
+     * @var int
      */
-    public $summary;
+    public $min_temp_i;
+    /**
+     *
+     * @var int
+     */
+    public $max_humidity;
+    /**
+     *
+     * @var int
+     */
+    public $min_humidity;
+    /**
+     *
+     * @var int
+     */
+    public $max_dew_pt_m;
+    /**
+     *
+     * @var int
+     */
+    public $max_dew_pt_i;
+    /**
+     *
+     * @var int
+     */
+    public $min_dew_pt_m;
+    /**
+     *
+     * @var int
+     */
+    public $min_dew_pt_i;
+    /**
+     *
+     * @var int
+     */
+    public $max_pressure_m;
+    /**
+     *
+     * @var int
+     */
+    public $max_pressure_i;
+    /**
+     *
+     * @var int
+     */
+    public $min_pressure_m;
+    /**
+     *
+     * @var int
+     */
+    public $min_pressure_i;
+    /**
+     *
+     * @var int
+     */
+    public $max_w_spd_m;
+    /**
+     *
+     * @var int
+     */
+    public $max_w_spd_i;
+    /**
+     *
+     * @var int
+     */
+    public $min_w_spd_m;
+    /**
+     *
+     * @var int
+     */
+    public $min_w_spd_i;
+    /**
+     *
+     * @var int
+     */
+    public $max_vism;
+    /**
+     *
+     * @var int
+     */
+    public $max_visi;
+    /**
+     *
+     * @var int
+     */
+    public $min_vism;
+    /**
+     *
+     * @var int
+     */
+    public $min_visi;
+    /**
+     *
+     * @var int
+     */
+    public $gdegreedays;
+    /**
+     *
+     * @var int
+     */
+    public $heatingdegreedays;
+    /**
+     *
+     * @var int
+     */
+    public $coolingdegreedays;
+    /**
+     *
+     * @var int
+     */
+    public $precipm;
+    /**
+     *
+     * @var int
+     */
+    public $precipi;
+    /**
+     *
+     * @var int
+     */
+    public $precipsource;
+    /**
+     *
+     * @var int
+     */
+    public $heatingdegreedaysnormal;
+    /**
+     *
+     * @var int
+     */
+    public $monthtodateheatingdegreedays;
+    /**
+     *
+     * @var int
+     */
+    public $monthtodateheatingdegreedaysnormal;
+    /**
+     *
+     * @var int
+     */
+    public $since1sepheatingdegreedays;
+    /**
+     *
+     * @var int
+     */
+    public $since1sepheatingdegreedaysnormal;
+    /**
+     *
+     * @var int
+     */
+    public $since1julheatingdegreedays;
+    /**
+     *
+     * @var int
+     */
+    public $since1julheatingdegreedaysnormal;
+    /**
+     *
+     * @var int
+     */
+    public $coolingdegreedaysnormal;
+    /**
+     *
+     * @var int
+     */
+    public $monthtodatecoolingdegreedays;
+    
+    /**
+     *
+     * @var int
+     */
+    public $monthtodatecoolingdegreedaysnormal;
+    
+    /**
+     *
+     * @var int
+     */
+    public $since1sepcoolingdegreedays;
+    
+    /**
+     *
+     * @var int
+     */
+    public $since1sepcoolingdegreedaysnormal;
+    
+    /**
+     *
+     * @var int
+     */
+    public $since1jancoolingdegreedays;
+    
+    /**
+     *
+     * @var int
+     */
+     public $since1jancoolingdegreedaysnormal;
 
     /**
      *
@@ -101,52 +408,52 @@ class History extends \Phalcon\Mvc\Model
             'fog' => 'fog',
             'rain' => 'rain',
             'snow' => 'snow',
-            'snowfallm' => 'snowfallm',
-            'snowfalli' => 'snowfalli',
-            'monthtodatesnowfallm' => 'monthtodatesnowfallm',
-            'monthtodatesnowfalli' => 'monthtodatesnowfalli',
-            'since1julsnowfallm' => 'since1julsnowfallm',
-            'since1julsnowfalli' => 'since1julsnowfalli',
-            'snowdepthm' => 'snowdepthm',
-            'snowdepthi' => 'snowdepthi',
+            'snow_fall_m' => 'snow_fall_m',
+            'snow_fall_i' => 'snow_fall_i',
+            'monthtodatesnow_fall_m' => 'monthtodatesnow_fall_m',
+            'monthtodatesnow_fall_i' => 'monthtodatesnow_fall_i',
+            'since1julsnow_fall_m' => 'since1julsnow_fall_m',
+            'since1julsnow_fall_i' => 'since1julsnow_fall_i',
+            'snow_depth_m' => 'snow_depth_m',
+            'snow_depth_i' => 'snow_depth_i',
             'hail' => 'hail',
             'thunder' => 'thunder',
             'tornado' => 'tornado',
-            'meantempm' => 'meantempm',
-            'meantempi' => 'meantempi',
-            'meandewptm' => 'meandewptm',
-            'meandewpti' => 'meandewpti',
-            'meanpressurem' => 'meanpressurem',
-            'meanpressurei' => 'meanpressurei',
-            'meanwindspdm' => 'meanwindspdm',
-            'meanwindspdi' => 'meanwindspdi',
-            'meanwdire' => 'meanwdire',
-            'meanwdird' => 'meanwdird',
-            'meanvism' => 'meanvism',
-            'meanvisi' => 'meanvisi',
+            'mean_temp_m' => 'mean_temp_m',
+            'mean_temp_i' => 'mean_temp_i',
+            'mean_dew_pt_m' => 'mean_dew_pt_m',
+            'mean_dew_pt_i' => 'mean_dew_pt_i',
+            'mean_pressure_m' => 'mean_pressure_m',
+            'mean_pressure_i' => 'mean_pressure_i',
+            'mean_wind_spd_m' => 'mean_wind_spd_m',
+            'mean_wind_spd_i' => 'mean_wind_spd_i',
+            'mean_w_dir_e' => 'mean_w_dir_e',
+            'mean_w_dir_d' => 'mean_w_dir_d',
+            'mean_vis_m' => 'mean_vis_m',
+            'mean_vis_i' => 'mean_vis_i',
             'humidity' => 'humidity',
-            'maxtempm' => 'maxtempm',
-            'maxtempi' => 'maxtempi',
-            'mintempm' => 'mintempm',
-            'mintempi' => 'mintempi',
-            'maxhumidity' => 'maxhumidity',
-            'minhumidity' => 'minhumidity',
-            'maxdewptm' => 'maxdewptm',
-            'maxdewpti' => 'maxdewpti',
-            'mindewptm' => 'mindewptm',
-            'mindewpti' => 'mindewpti',
-            'maxpressurem' => 'maxpressurem',
-            'maxpressurei' => 'maxpressurei',
-            'minpressurem' => 'minpressurem',
-            'minpressurei' => 'minpressurei',
-            'maxwspdm' => 'maxwspdm',
-            'maxwspdi' => 'maxwspdi',
-            'minwspdm' => 'minwspdm',
-            'minwspdi' => 'minwspdi',
-            'maxvism' => 'maxvism',
-            'maxvisi' => 'maxvisi',
-            'minvism' => 'minvism',
-            'minvisi' => 'minvisi',
+            'max_temp_m' => 'max_temp_m',
+            'max_temp_i' => 'max_temp_i',
+            'min_temp_m' => 'min_temp_m',
+            'min_temp_i' => 'min_temp_i',
+            'max_humidity' => 'max_humidity',
+            'min_humidity' => 'min_humidity',
+            'max_dew_pt_m' => 'max_dew_pt_m',
+            'max_dew_pt_i' => 'max_dew_pt_i',
+            'min_dew_pt_m' => 'min_dew_pt_m',
+            'min_dew_pt_i' => 'min_dew_pt_i',
+            'max_pressure_m' => 'max_pressure_m',
+            'max_pressure_i' => 'max_pressure_i',
+            'min_pressure_m' => 'min_pressure_m',
+            'min_pressure_i' => 'min_pressure_i',
+            'max_w_spd_m' => 'max_w_spd_m',
+            'max_w_spd_i' => 'max_w_spd_i',
+            'min_w_spd_m' => 'min_w_spd_m',
+            'min_w_spd_i' => 'min_w_spd_i',
+            'max_vism' => 'max_vism',
+            'max_visi' => 'max_visi',
+            'min_vism' => 'min_vism',
+            'min_visi' => 'min_visi',
             'gdegreedays' => 'gdegreedays',
             'heatingdegreedays' => 'heatingdegreedays',
             'coolingdegreedays' => 'coolingdegreedays',
